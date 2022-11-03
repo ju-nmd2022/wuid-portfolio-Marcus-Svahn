@@ -1,0 +1,43 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #234;
+    margin: 0px;
+   
+}
+
+h1 {
+    color: #fff;
+    font-size: 42px;
+    margin-top: 25px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 26px;
+    margin-top: 40px;
+}
+
+p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 50px;
+    width: 550px;
+}
+
+body {
+    margin-left: 50px;
+}
+
+.text {
+    margin-top: 5px;
+    line-height: 25px;
+}
+
+.carpic {
+    width: 550px;
+   
+}
+
+a:visited {
+    color: white
+}
