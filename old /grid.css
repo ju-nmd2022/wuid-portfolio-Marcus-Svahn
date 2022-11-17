@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 30rem, 1fr;
+    grid-template-columns: repeat(auto-fit, minmax);
+    gap: 5px;
+}
+
+section{
+    background-color: beige;
+} */
+
+.work-overview{
+    max-width: 1200px;
+    margin: auto 25px;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+}
+
+.work-item{
+    min-height: 300px;
+    min-width: 300px;
+    background: gray;
+    border-radius: 10px;
+
+}
+
+.work-pic{
+    width: 10px;
+
+}
+
