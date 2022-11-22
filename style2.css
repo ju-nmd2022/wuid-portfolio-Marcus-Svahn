@@ -57,13 +57,29 @@ footer{
     user-select: none;
 }
 
-/* the following 3 styles are inspired by: https://www.youtube.com/watch?v=UYvwb6pBvg8&ab_channel=TahmidAhmed */
+/* the following 3 (ul li, ul li a, ul, li a:hover) are inspired by: https://www.youtube.com/watch?v=UYvwb6pBvg8&ab_channel=TahmidAhmed */
 
 ul li{
     list-style-type: none;
     display: inline-block;
     padding: 0px 30px;
+    animation-duration: 3s;
+    animation-name: zoom;
+
 }
+@keyframes zoom{
+    0%{
+        font-size: 100%;
+        color: aqua;
+        
+    }
+    50%{
+        font-size: 110%;        
+    }
+
+}
+
+
 
 ul li a{
     color: white;
@@ -148,7 +164,7 @@ main {
     columns: 2;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
     .portfolio{
         columns: 1;
     }
