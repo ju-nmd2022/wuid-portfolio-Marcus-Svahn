@@ -55,6 +55,20 @@ footer{
     color: white;
     font-size: 42px;
     user-select: none;
+    animation-duration: 2s;
+    animation-name: size;
+}
+
+@keyframes size{
+    0%{
+        font-size: 42px;        
+    }
+    50%{
+        font-size: 84px;         
+    }
+    100%{
+        font-size: 42px; 
+    }
 }
 
 /* the following 3 (ul li, ul li a, ul, li a:hover) are inspired by: https://www.youtube.com/watch?v=UYvwb6pBvg8&ab_channel=TahmidAhmed */
@@ -63,18 +77,24 @@ ul li{
     list-style-type: none;
     display: inline-block;
     padding: 0px 30px;
-    animation-duration: 3s;
-    animation-name: zoom;
 
 }
-@keyframes zoom{
+@keyframes color{
     0%{
-        font-size: 100%;
         color: aqua;
         
     }
+    25%{
+        color: green;
+    }
     50%{
-        font-size: 110%;        
+        color: blue;
+    }
+    75%{
+        color: purple;
+    }
+    100%{
+        color: yellow;
     }
 
 }
@@ -84,6 +104,8 @@ ul li{
 ul li a{
     color: white;
     text-decoration: none;
+    animation-duration: 3s;
+    animation-name: color;
 }
 
 ul li a:hover{
