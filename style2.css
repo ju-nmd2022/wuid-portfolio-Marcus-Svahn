@@ -55,6 +55,15 @@ footer{
     color: white;
     font-size: 42px;
     user-select: none;
+    animation-duration: 2s;
+    animation-name: fade2;
+}
+
+@keyframes fade2{
+    0%{
+        opacity: 0%;
+        margin-left: 200px;
+    }
 }
 
 main{
@@ -64,7 +73,7 @@ main{
 
 @keyframes fade{
     0%{
-        padding-left: 30%;    
+        padding-top: 10%;    
         opacity: 0%;    
     }
 }
@@ -81,18 +90,7 @@ ul li{
 ul li a{
     color: white;
     text-decoration: none;
-    animation-duration: 3s;
-    animation-name: fade2;
 }
-
-@keyframes fade2{
-    0%{
-        opacity: 0%;
-        margin-left: 200px;
-    }
-}
-
-
 
 ul li a:hover{
     color: rgb(171, 5, 5);
