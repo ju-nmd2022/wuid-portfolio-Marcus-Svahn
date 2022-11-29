@@ -55,19 +55,17 @@ footer{
     color: white;
     font-size: 42px;
     user-select: none;
-    animation-duration: 2s;
-    animation-name: size;
 }
 
-@keyframes size{
+main{
+    animation-duration: 2s;
+    animation-name: fade;
+}
+
+@keyframes fade{
     0%{
-        font-size: 42px;        
-    }
-    50%{
-        font-size: 84px;         
-    }
-    100%{
-        font-size: 42px; 
+        padding-left: 30%;    
+        opacity: 0%;    
     }
 }
 
@@ -79,34 +77,22 @@ ul li{
     padding: 0px 30px;
 
 }
-@keyframes color{
-    0%{
-        color: aqua;
-        
-    }
-    25%{
-        color: green;
-    }
-    50%{
-        color: blue;
-    }
-    75%{
-        color: purple;
-    }
-    100%{
-        color: yellow;
-    }
-
-}
-
-
 
 ul li a{
     color: white;
     text-decoration: none;
     animation-duration: 3s;
-    animation-name: color;
+    animation-name: fade2;
 }
+
+@keyframes fade2{
+    0%{
+        opacity: 0%;
+        margin-left: 200px;
+    }
+}
+
+
 
 ul li a:hover{
     color: rgb(171, 5, 5);
